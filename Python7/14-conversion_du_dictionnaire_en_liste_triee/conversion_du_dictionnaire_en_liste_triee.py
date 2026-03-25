@@ -13,8 +13,5 @@ def dict_to_sorted_list(d: dict) -> list:
     tuples triée par valeurs décroissantes.
     """
 
-    reversed_d = dict(reversed(sorted(d.items())))
-    lst = []
-    for x in reversed_d.keys():
-        lst.append((x, d[x]))
-    return (lst)
+    lst = sorted(d.items(), key=lambda x: x[1], reverse=True)
+    return lst

@@ -14,4 +14,4 @@ def get_value_from_dict(d: dict, key: int) -> str:
     if (key in d.keys()):
         return (str(d[key]))
     else:
-        return "Key not found in dictionary"
+        return "Clé non trouvée"

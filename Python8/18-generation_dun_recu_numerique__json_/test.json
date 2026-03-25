@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Pomme",
+        "price": 1.5,
+        "quantity": 3
+    },
+    {
+        "name": "Banane",
+        "price": 2.0,
+        "quantity": 2
+    },
+    {
+        "name": "Orange",
+        "price": 1.8,
+        "quantity": 4
+    },
+    {
+        "name": "Kiwi",
+        "price": 2.5,
+        "quantity": 1
+    },
+    {
+        "name": "Fraise",
+        "price": 3.0,
+        "quantity": 5
+    }
+]

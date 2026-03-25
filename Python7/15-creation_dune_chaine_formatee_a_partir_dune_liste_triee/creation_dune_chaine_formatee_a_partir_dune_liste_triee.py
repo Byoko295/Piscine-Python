@@ -19,9 +19,3 @@ def list_to_string(lst: list) -> str:
             jump = ""
         str += f"{x + 1}. {lst[x][0]}: {lst[x][1]}{jump}"
     return (str)
-
-
-
-
-lst = [("cherry", 8), ("apple", 5), ("banana", 2)]
-print(list_to_string(lst))
